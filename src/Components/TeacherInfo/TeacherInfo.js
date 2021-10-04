@@ -16,10 +16,10 @@ const TeacherInfo = (props) => {
                     <Card.Text>
                         Specialist in <span className="text-primary"> {subject}</span>
                         <p className="text-center fs-3">
-                            <i class="fab fa-facebook-square me-3"></i>
-                            <i class="fab fa-linkedin me-3"></i>
-                            <i class="fab fa-instagram-square me-3"></i>
-                            <i class="fab fa-twitter-square"></i>
+                            <i className="fab fa-facebook-square me-3"></i>
+                            <i className="fab fa-linkedin me-3"></i>
+                            <i className="fab fa-instagram-square me-3"></i>
+                            <i className="fab fa-twitter-square"></i>
                         </p>
                     </Card.Text>
 
