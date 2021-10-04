@@ -1,12 +1,14 @@
 import React from 'react';
-import NabManu from '../NabManu/NabManu';
+
+import Navbar from '../NavBar/Navbar';
 import TopHeader from '../TopHeader/TopHeader';
 
 const Header = () => {
     return (
         <div>
             <TopHeader></TopHeader>
-            <NabManu></NabManu>
+
+            <Navbar></Navbar>
 
         </div>
     );

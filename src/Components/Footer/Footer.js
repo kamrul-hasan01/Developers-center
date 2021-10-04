@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'react-bootstrap';
 import fb from '../../Images/facebook.png'
 import instagram from '../../Images/instagram.png'
 import linkedin from '../../Images/linkedin.png'
@@ -7,12 +6,12 @@ import twitter from '../../Images/twitter.png'
 import wApps from '../../Images/whatsapp.png'
 import google from '../../Images/google.png'
 import apple from '../../Images/apple.png'
-import bkash from '../../Images/bkash.png'
+
 
 const Footer = () => {
     return (
-        <footer style={{ background: "#EBECE4" }}>
-            <section className=" pt-5  container">
+        <footer style={{ background: "#191F23" }}>
+            <section className=" pt-5  container text-white">
                 <div className="row g-0">
                     <div className="col-md-6">
                         <div className="row g-0">
@@ -46,16 +45,8 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className="col-md-5 ms-auto text-start">
-                        <div className="mb-3">
-                            <h1 className="mb-4">Subscribe Newsletter</h1>
-                            <div className="input-group ">
-                                <input type="text" className="form-control bg-white" placeholder="Enter your email adress"
-                                    aria-label="Recipient's username" aria-describedby="basic-addon2" />
-                                <Button type="button"
-                                    className="btn rounded text-white px-5 custon-bg-color ms-3 w-xs-50">SUBSCRIBE</Button>
-                            </div>
-                        </div>
-                        <div className="my-4">
+
+                        <div className="my-1">
                             <h1 className="mb-3">Download App</h1>
                             <div className="row g-0">
                                 <div className="col-md-6"><img className="img-fluid rounded" style={{ height: "80px" }}
@@ -68,10 +59,10 @@ const Footer = () => {
                         <div className="my-5">
                             <h1 className="my-4">We Accept</h1>
                             <div className="row g-0">
-                                <img className=" rounded" style={{ height: "40px", width: "40px" }} src={bkash} alt="" />
-                                <img className="ms-3 rounded" style={{ height: "40px", width: "40px" }} src={bkash} alt="" />
-                                <img className="ms-3 rounded" style={{ height: "40px", width: "40px" }} src={bkash} alt="" />
-                                <img className="ms-3 rounded" style={{ height: "40px", width: "40px" }} src={bkash} alt="" />
+                                <img className=" rounded" style={{ height: "40px", width: "40px" }} src="https://play-lh.googleusercontent.com/UWIyHqi_5u5oyiKB7NyuCL-YYDujSKWOkfFnziLm8cGSMWb094MRXMwXEm4Ew6iy6nA" alt="" />
+                                <img className="ms-3 rounded" style={{ height: "40px", width: "40px" }} src="https://play-lh.googleusercontent.com/EQC9NtbtRvsNcU1r_5Dr8pWm3hPfN3OjGjzkOqzCEPDJvqBGKyfU9-a2ajNtcrIg1rs" alt="" />
+                                <img className="ms-3 rounded" style={{ height: "40px", width: "40px" }} src="https://futurestartup.com/wp-content/uploads/2016/09/DBBL-Mobile-Banking-Becomes-Rocket.jpg" alt="" />
+                                <img className="ms-3 rounded" style={{ height: "40px", width: "40px" }} src="https://cdn.freelogovectors.net/wp-content/uploads/2016/12/mastercard-logo2.png" alt="" />
 
                             </div>
 
@@ -86,11 +77,11 @@ const Footer = () => {
             </section>
 
             <section >
-                <div className="row g-0">
+                <div className="row g-0 text-white py-4" style={{ background: "#191F23" }}>
                     <div className="col-md-6">
                         <div className="pt-2">
                             <p>2021 <i className="far fa-copyright"></i> All rights reserved. <span className="text-primary">
-                                kamrulhasa.kh02@gmail.com</span></p>
+                                Developer  Center</span></p>
                         </div>
                     </div>
                     <div className="col-md-6">

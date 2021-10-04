@@ -3,9 +3,10 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 import Banner from '../Banner/Banner';
 import Facilities from '../Facilities/Facilities';
-import Services from '../Services/Services';
 import { useHistory } from 'react-router-dom';
 import Teachers from '../Teachers/Teachers';
+import Courses from '../Courses/Courses';
+
 
 const Home = () => {
     const history = useHistory();
@@ -14,15 +15,24 @@ const Home = () => {
         history.push('/services')
     }
     return (
-        <div>
+        <main style={{ background: "#FCFCFC" }}>
             <Banner></Banner>
-            <Facilities></Facilities>
-            <Services></Services>
+
+
+            <section  >
+                <Courses></Courses>
+            </section>
+
+
+
             <p><Button variant="primary" className="fs-4" onClick={services}>View All Course</Button></p>
 
-            <Teachers></Teachers>
+            <section><Teachers></Teachers></section>
+            <section  >
+                <Facilities></Facilities>
+            </section>
 
-        </div>
+        </main>
     );
 };
 

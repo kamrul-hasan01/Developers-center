@@ -1,8 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
+import SectionTittle from '../SectionTittle/SectionTittle';
 import TeacherInfo from '../TeacherInfo/TeacherInfo';
 
 const Teachers = () => {
+    const sectionTitle = "Course inspectors"
+    const sectionInfo = "Teacher  are too good"
     const [languages, setLanguages] = useState([]);
     useEffect(() => {
 
@@ -19,12 +22,7 @@ const Teachers = () => {
     }, [])
     return (
         <div>
-            <div className="row g-0">
-                <div className="col-md-12">
-                    <h1 className="text-center fs-3 pt-5 text-primary pb-0">Course inspectors</h1>
-                    <p className="text-muted fs-5 pt-0">Course start from 4000 tk to 9000 tk</p>
-                </div>
-            </div>
+            <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
             <Container>
                 <Row xs={1} md={4} className="g-0">
 
