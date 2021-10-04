@@ -8,7 +8,9 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light Navbar-bg">
             <div className="container">
-                <h1 className="text-white fs-2">Developers Center</h1>
+                <NavLink to="/" className="nav-link text-white"
+                >  <h1 className="text-white fs-2">Developers Center</h1></NavLink>
+
 
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
