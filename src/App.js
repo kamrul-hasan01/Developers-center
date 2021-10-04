@@ -3,6 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
 import About from './Components/About/About';
 import Courses from './Components/Courses/Courses';
+import Events from './Components/Events/Events';
 import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
@@ -29,6 +30,9 @@ function App() {
           </Route>
           <Route path="/about">
             <About></About>
+          </Route>
+          <Route path="/events">
+            <Events></Events>
           </Route>
           <Route path="*">
             <PageNotFound></PageNotFound>

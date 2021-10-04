@@ -1,0 +1,17 @@
+.date-style{
+
+    /* font-size: 40px; */
+    width: 60px;
+    height: 60px;
+    background-color: blue;
+   border-radius: 50%;
+   text-align: center;
+   align-items: center;
+   padding: 50px;
+   margin-top: -70px !important;
+   z-index: 1 !important;
+   position: fixed;
+}
+.img-style{
+    z-index: 2 !important;
+}

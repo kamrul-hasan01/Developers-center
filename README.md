@@ -1,6 +1,6 @@
 # Developers center
 
-[Live-site:](https://github.com/facebook/create-react-app).
+[Live-site:  ](https://developers-center.netlify.app/)https://developers-center.netlify.app/
 
 ## Website Details:
 

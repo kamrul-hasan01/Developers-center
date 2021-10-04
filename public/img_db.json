@@ -1,26 +1,44 @@
 [
     {
         "id": "1",
-        "img": " https://image.freepik.com/free-photo/female-african-american-speaker-giving-presentation-hall-university-workshop_155003-3579.jpg"
+        "img": " https://image.freepik.com/free-photo/female-african-american-speaker-giving-presentation-hall-university-workshop_155003-3579.jpg",
+        "event": "Python Bootcamp",
+        "date": "1",
+        "details": "Become a Python Programmer and learn one of employer's most requested skills of 2021!"
     },
     {
         "id": "2",
-        "img": "https://image.freepik.com/free-photo/group-kids-studying-school_1303-26846.jpg "
+        "img": "https://image.freepik.com/free-photo/group-kids-studying-school_1303-26846.jpg ",
+        "event": "React Bootcamp",
+        "date": "2",
+        "details": "The best learning experience paired with a world-class instructor. This massive course aims to turn you into hireable React developer as fast as humanly possible."
     },
     {
         "id": "3",
-        "img": "https://image.freepik.com/free-photo/meeting-presentation-planning-graphic-word_53876-123896.jpg "
+        "img": "https://image.freepik.com/free-photo/meeting-presentation-planning-graphic-word_53876-123896.jpg ",
+        "event": "Free Php Bootcamp",
+        "date": "3",
+        "details": "In this complete PHP Bootcamp Course students will learn how to create a video sharing project with advanced admin panel"
     },
     {
         "id": "4",
-        "img": "https://image.freepik.com/free-photo/students-knowing-right-answer_329181-14271.jpg "
+        "img": "https://image.freepik.com/free-photo/students-knowing-right-answer_329181-14271.jpg ",
+        "event": "Basic JavaScript & Rect",
+        "date": "4",
+        "details": "Learn JavaScript by building real-world apps. Includes 3 real-world projects, 80 programming challenges, and ES6/ES7!"
     },
     {
         "id": "5",
-        "img": "https://image.freepik.com/free-photo/smiling-students-with-backpacks_1098-1220.jpg "
+        "img": "https://image.freepik.com/free-photo/smiling-students-with-backpacks_1098-1220.jpg ",
+        "event": "Data Structure ",
+        "date": "5",
+        "details": "Ultimate coding interview bootcamp. Get more job offers, negotiate a raise: Everything you need to get the job you want!"
     },
     {
         "id": "6",
-        "img": " https://image.freepik.com/free-photo/group-kids-studying-school_1303-26841.jpg"
+        "img": " https://image.freepik.com/free-photo/group-kids-studying-school_1303-26841.jpg",
+        "event": "Python Bootcamp",
+        "date": "6",
+        "details": "Master Python by building 100 projects in 100 days. Learn to build websites, games, apps, plus scraping and data science"
     }
 ]

@@ -1,15 +1,14 @@
+import React from 'react';
 import { Row } from 'react-bootstrap';
-import useCourses from '../../useHooks/useCourses';
-
-
-import Course from '../Course/Course';
+import useEvent from '../../useHooks/useEvent';
 import SectionTittle from '../SectionTittle/SectionTittle';
+import SingleEvent from '../SingleEvent/SingleEvent';
 
+const Events = () => {
+    const sectionTitle = "Events"
+    const sectionInfo = "Event list given bellow"
+    const events = useEvent()
 
-const Courses = () => {
-    const sectionTitle = "Our Course Products"
-    const sectionInfo = "Course start from 4000 tk to 9000 tk"
-    const courses = useCourses()
     return (
         <div style={{ background: "#FCFCFC" }}>
             <div className="container" >
@@ -19,7 +18,7 @@ const Courses = () => {
                     <Row xs={1} md={3} className="g-0">
 
                         {
-                            courses[0].map(course => <Course key={course.id} course={course}></Course>)
+                            events[0].map(event => <SingleEvent key={event.id} event={event}></SingleEvent>)
                         }
                     </Row>
                 </div>
@@ -28,4 +27,4 @@ const Courses = () => {
     );
 };
 
-export default Courses;
+export default Events;
