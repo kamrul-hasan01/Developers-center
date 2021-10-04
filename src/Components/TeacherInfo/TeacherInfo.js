@@ -5,7 +5,7 @@ const TeacherInfo = (props) => {
     const { userName, subject, userImage } = props.teacher
     return (
 
-        <Col className="p-4">
+        <Col className="p-2">
             <Card className="custom-shadow">
                 <div className="px-auto pt-3">
                     <Card.Img src={userImage} style={{ height: "200px", width: "200px", borderRadius: "50%" }} />
