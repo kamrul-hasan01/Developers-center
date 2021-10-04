@@ -7,6 +7,6 @@
 <br>
 1.You can buy any course from this web site.
 <br> 
-2. You can find out about the team members of the developers center. 
+2. You can find out about the teacher list and course list. 
 <br> 
 3. You will get an idea about the classroom.

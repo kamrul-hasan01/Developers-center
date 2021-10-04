@@ -13,7 +13,7 @@ const Teachers = () => {
         <div>
             <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
             <Container>
-                <Row xs={1} md={4} className="g-0">
+                <Row xs={1} md={3} className="g-0">
 
                     {
                         teachers[0].map(teacher => <TeacherInfo key={teacher.id} teacher={teacher}></TeacherInfo>)
