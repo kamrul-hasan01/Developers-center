@@ -10,7 +10,7 @@ const Events = () => {
     const events = useEvent()
 
     return (
-        <div style={{ background: "#FCFCFC" }}>
+        <div >
             <div className="container" >
                 <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
 

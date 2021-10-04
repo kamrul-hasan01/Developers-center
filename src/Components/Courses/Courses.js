@@ -11,7 +11,7 @@ const Courses = () => {
     const sectionInfo = "Course start from 4000 tk to 9000 tk"
     const courses = useCourses()
     return (
-        <div style={{ background: "#FCFCFC" }}>
+        <div >
             <div className="container" >
                 <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
 

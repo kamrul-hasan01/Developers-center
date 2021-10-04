@@ -23,12 +23,12 @@ const Home = () => {
     }
 
     return (
-        <main style={{ background: "#FCFCFC" }}>
+        <main >
             <Banner></Banner>
 
 
             <section  >
-                <div style={{ background: "#FCFCFC" }}>
+                <div >
                     <div className="container" >
                         <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
 
@@ -49,7 +49,7 @@ const Home = () => {
             <p ><Button variant="primary" className="fs-4" onClick={services}>View All Course</Button></p>
 
             <section><Teachers></Teachers></section>
-            <section  >
+            <section className="mb-5 pb-3" >
                 <Facilities></Facilities>
             </section>
 
