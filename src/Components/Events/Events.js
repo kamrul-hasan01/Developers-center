@@ -3,6 +3,7 @@ import { Row } from 'react-bootstrap';
 import useEvent from '../../useHooks/useEvent';
 import SectionTittle from '../SectionTittle/SectionTittle';
 import SingleEvent from '../SingleEvent/SingleEvent';
+import TodaysEvent from '../TodaysEvent/TodaysEvent';
 
 const Events = () => {
     const sectionTitle = "Events"
@@ -10,8 +11,10 @@ const Events = () => {
     const events = useEvent()
 
     return (
-        <div >
+        <div className="mb-5">
             <div className="container" >
+                <TodaysEvent></TodaysEvent>
+
                 <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
 
                 <div>

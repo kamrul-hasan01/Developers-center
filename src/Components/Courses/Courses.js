@@ -12,7 +12,7 @@ const Courses = () => {
     const courses = useCourses()
     return (
         <div >
-            <div className="container" >
+            <div className="container pb-4" >
                 <SectionTittle sectionTitle={sectionTitle} sectionInfo={sectionInfo}></SectionTittle>
 
                 <div>
